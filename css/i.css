@@ -125,7 +125,6 @@ html {
 
 .footer a span {
     color: #f9d806;
-    
 }
 
 .icons {
@@ -181,3 +180,6 @@ html {
     background: #f9d806;
 }
 
+.text {
+    color:antiquewhite;
+}
