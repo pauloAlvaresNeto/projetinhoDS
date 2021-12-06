@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+    font-family: 'Poppins',
+        sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+html {
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+    background: #fff;
+}
+
+.h1 {
+    color: #130f40;
+    font-weight: bold;
+}
+
+.header {
+    background: #fff;
+    font-size: 1.1rem;
+}
+
+.navbar a span {
+    color: #f9d806;
+    font-size: 1.5rem;
+}
+
+.navbar .nav-item a {
+    color: #130f40;
+    font-size: 1.3rem;
+}
+
+.navbar .nav-item a:hover {
+    color: #f9d806;
+}
+
+.container-fluid .row-img h1 {
+    font-size: 7.5vw;
+    color: #130f40;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.header.active {
+    padding: 1rem 9%;
+    box-shadow: 0 2.5rem 1rem rgba(0, 0, 0, .1);
+}
+
+.mt-container {
+    margin-top: 8rem;
+}
+
+#btnMenu {
+    color: #666;
+
+}
+
+.blog-footer {
+    padding: 2.5rem 0;
+    color: #999;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: .05rem solid #e5e5e5;
+}
+
+.blog-footer p:last-child {
+    margin-bottom: 0;
+}
+
+
+.button {
+    display: inline-block;
+    background-color: hsl(355, 70%, 54%);
+    color: #fff;
+    padding: 1.15rem 2.75rem;
+    font-weight: 500;
+    border-radius: 3rem;
+    transition: .3s;
+}
+
+.button:hover {
+    background-color: hsl(355, 66%, 50%);
+    text-decoration: none;
+}
+
+
+
+.footer {
+    padding: 2.5rem 0;
+    color: black;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: .05rem solid #e5e5e5;
+}
+
+.footer p:last-child {
+    margin-bottom: 0;
+}
+
+.divider {
+    margin: 5rem 0;
+}
+
+.icon-social {
+    font-size: 2rem;
+    color: black;
+}
+
+.footer a span {
+    color: #f9d806;
+    font-size: 1.5rem;
+}
+
+.icons {
+    font-size: 18px;
+    display: inline-block;
+    background: #eee;
+    color: #130f40;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+

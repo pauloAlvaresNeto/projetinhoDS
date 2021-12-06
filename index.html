@@ -1,18 +1,177 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="libs/fontawesome/css/all.css">
+    <link rel="stylesheet" href="css/i.css">
     <link rel="stylesheet" href="css/bootstrap.css">
-    <title>Minha Primeira Página Com GIT</title>
+    <title>Document</title>
 </head>
 
-<body>
-    <h1>Olá GITHUB</h1>
+<body class="">
+
+    <!-- NAVBAR -->
+
+    <nav class="navbar header navbar-expand-lg fixed-top">
+        <div class=" container mt-1 mb-1">
+
+            <a class="navbar-brand h1 mb-0 mr-auto" href="#"><span>Desenvolvimento</span>Sistemas</a>
+
+            <button class="navbar-toggler p-0 border-0" type="button" data-toggle="collapse" data-target="#nav">
+                <span id="bntMenu" class=""></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="nav">
+
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contato.html">Contato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Vestibulinho</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">DS ao mundo</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-container">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-6">
+                <img src="image/sistema.png" alt="">
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-6">
+                <h1 class="home__title">Seja Um<br> Desenvolvedor</h1>
+                <p class="home__description">
+                    Que é o profissional que analisa e projeta sistemas. Constrói, documenta, realiza testes e mantém
+                    sistemas de informação.
+                    Utiliza ambientes de desenvolvimento e linguagens de programação específica. Modela, implementa e
+                    mantém bancos de
+                    dados.
+                </p>
+                <a href="#" class="button">Conheça +</a>
+            </div>
+        </div>
+
+        <hr class="divider bg-nav ">
+
+        <div class="row mt-3">
+            <div class="col-12">
+                <h1 class="text-danger text-center font-title">
+                    Vídeos
+                </h1>
+            </div>
+        </div>
+
+        <div class="row mt-5 mb-5">
+            <div class="col-12 col-sm-6 col-md-6">
+                <div class="">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/EXUxgElcDFI"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <h4 class="text-center mt-3 font-text">Mensagem do Diretor Da instituição</h4>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-6">
+                <div class="b">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/IECvgoB-oqU"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <h4 class="text-center mt-3 font-title">Conhecendo um pouco do curso</h4>
+                </div>
+            </div>
+        </div>
+
+        <hr class="divider bg-nav ">
+
+        <div class="row mt-5 mb-5">
+            <div class="col-12">
+                <h1 class="text-danger text-center font-title">
+                    Principais Noticias
+                </h1>
+            </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    
+                    <div class="card-body text-center">
+                        <i class="fas fa-magic icons"></i>
+                        <h5 class="card-title">Máterias</h5>
+                        <p class="card-text"> Técnicas de Programação de Algoritmos, Banco de Dados, Design Digital, Programção Web, Análise e Projeto de Sistemas, Fundamentos da Infor,mática, Desenvolvimento de Sistemas, Programação de Aplicativos Mobile...</p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    
+                    <div class="card-body text-center">
+                        <i class="fas fa-graduation-cap icons"></i>
+                        <h5 class="card-title">Duração do Curso</h5>
+                        <p class="card-text">3 anos - Ensino Médio com Habilitação Técnica em Desenvolvimento de Sistemas.</p>
+                            <p class="card-text">5 anos - Ensino Médio com Habilitação Técnica em Desenvolvimento de Sistemas (P-TECH) FATEC.</p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    
+                    <div class="card-body text-center">
+                        <i class="fas fa-cog icons"></i>
+                        <h5 class="card-title">Linguagens de Programação</h5>
+                        <p class="card-text">HTML e CSS(linguagem de marcação), Java e JavaScript, PHP, Mysql(banco de dados) e alguns frameworks como o Bootstrap.
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer mt-5">
+        <a class=" h1 mb-0 mr-auto" href="#"><span>Etec</span>Lins</a>
+        <p>Venha você fazer parte</p>
+        <p class="text-center icon-social padding ">
+            <a href="https://www.instagram.com/p4ulo_n3to/" target="_blank"><i
+                    class="fab fa-instagram icon-social"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100034751986115" target="_blank"><i
+                    class="fab fa-facebook icon-social"></i></a>
+            <a href="https://twitter.com/PauloAlvaresNe1/with_replies" target="_blank"><i
+                    class="fab fa-twitter icon-social"></i></a>
+        </p>
+        <p>
+            &copy; Copyright <strong><span>Etec de Lins</span></strong>. All Rights Reserved<br>
+            Designed by <a href="#">Paulo Alvares Neto</a>
+        </p>
+    </footer>
+
+
+
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/jquery.mask.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/index.js"></script>
+
 </body>
-<script src="js/jquery-3.6.0.js"></script>
-<script src="js/bootstrap.js"></script>
 
 </html>
