@@ -80,7 +80,8 @@ html {
 
 .button {
     display: inline-block;
-    background-color: hsl(355, 70%, 54%);
+    
+    background-color: #f9d806;
     color: #fff;
     padding: 1.15rem 2.75rem;
     font-weight: 500;
@@ -89,8 +90,9 @@ html {
 }
 
 .button:hover {
-    background-color: hsl(355, 66%, 50%);
+    background-color: #130f40;
     text-decoration: none;
+    color: #fff;
 }
 
 
@@ -113,12 +115,17 @@ html {
 
 .icon-social {
     font-size: 2rem;
-    color: black;
+    color: #130f40;
+}
+
+.icon-social:hover {
+    color: #f9d806;
+    font-size: 2.5rem;
 }
 
 .footer a span {
     color: #f9d806;
-    font-size: 1.5rem;
+    
 }
 
 .icons {
@@ -134,5 +141,43 @@ html {
     width: 36px;
     height: 36px;
     transition: 0.3s;
+}
+
+.icons:hover {
+    font-size: 18px;
+    display: inline-block;
+    background: #eee;
+    color: #f9d806;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+    
+}
+
+ .line {
+    position: relative;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 30px;
+
+}
+
+ .line::before {
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 50px;
+    bottom: 1.2px;
+    text-align: center;
+    border-radius: 8px;
+    background: #f9d806;
 }
 
