@@ -145,8 +145,8 @@ html {
 .icons:hover {
     font-size: 18px;
     display: inline-block;
-    background: #eee;
-    color: #f9d806;
+    background: #f9d806;
+    color: #130f40;
     line-height: 1;
     padding: 8px 0;
     margin-right: 4px;
@@ -180,6 +180,6 @@ html {
     background: #f9d806;
 }
 
-.text {
-    color:antiquewhite;
+.mt {
+   margin-top: -1rem;
 }
