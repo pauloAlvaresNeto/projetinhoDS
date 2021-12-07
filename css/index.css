@@ -36,12 +36,12 @@ html {
 }
 
 .navbar .nav-item a {
-    color: #130f40;
+    color: #130f40 !important;
     font-size: 1.3rem;
 }
 
 .navbar .nav-item a:hover {
-    color: #f9d806;
+    color: #f9d806 !important;
 }
 
 .container-fluid .row-img h1 {
@@ -127,7 +127,7 @@ html {
     color: #f9d806;
 }
 
-.icons {
+.icons-contact {
     font-size: 18px;
     display: inline-block;
     background: #eee;
@@ -142,7 +142,7 @@ html {
     transition: 0.3s;
 }
 
-.icons:hover {
+.icons-contact:hover {
     font-size: 18px;
     display: inline-block;
     background: #f9d806;
@@ -157,6 +157,56 @@ html {
     transition: 0.3s;
     
 }
+
+.icons {
+    font-size: 44px;
+    display: inline-block;
+    background: #eee;
+    color: #130f40;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 64px;
+    height: 64px;
+
+}
+
+.icons:hover {
+    font-size: 44px;
+    display: inline-block;
+    background: #f9d806;
+    color: #130f40;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 64px;
+    height: 64px;
+
+}
+
+ .lin {
+     position: relative;
+     font-weight: 600;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+     width: 100%;
+     margin-bottom: 30px;
+ }
+
+.lin::before {
+      content: '';
+      position: absolute;
+      height: 4px;
+      width: 50px;
+      bottom: 50px;
+      text-align: center;
+      border-radius: 8px;
+      background: #f9d806;
+  }
 
  .line {
     position: relative;
